@@ -1189,9 +1189,8 @@ Representación en XML
         </SubSeccion>
     </DivisionFuncional>
     <!-</LetrerosYSeñales>
-    <!-Sección ATA 12-00-00 SERVICIO Y MANTENIMIENTO
-
-    <!-<ServicioYMantenimiento>
+    <!-- Sección ATA 12-00-00 SERVICIO Y MANTENIMIENTO -->
+    <!**<ServicioYMantenimiento>
     <Definicion>
         <Descripcion>
             Detalla los procedimientos para el servicio y mantenimiento de la aeronave, incluyendo reabastecimiento, mantenimiento programado y no programado. Establece las mejores prácticas para asegurar la operatividad y seguridad de la aeronave.
@@ -1277,10 +1276,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</ServicioYMantenimiento>
-    <!-Sección ATA 13-00-00 FALTA DE MANTENIMIENTO
+</ServicioYMantenimiento>
 
-    <!-<FaltaDeMantenimiento>
+<!-- Sección ATA 13-00-00 FALTA DE MANTENIMIENTO -->
+<FaltaDeMantenimiento>
     <Definicion>
         <Descripcion>
             Establece procedimientos para la detección y planificación de mantenimientos correctivos cuando se identifican necesidades imprevistas.
@@ -1342,9 +1341,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</FaltaDeMantenimiento>
-    <!-**Sección ATA 14-00-00 RESERVICIO
-    <!-<Reservicio>
+</FaltaDeMantenimiento>
+
+<!-- Sección ATA 14-00-00 RESERVICIO -->
+<Reservicio>
     <Definicion>
         <Descripcion>
             Define los protocolos para el reabastecimiento y control de calidad durante el reservicio de la aeronave. Asegura que todas las actividades de reservicio cumplan con los estándares de calidad y seguridad establecidos.
@@ -1384,7 +1384,7 @@ Representación en XML
                 Detalla los procedimientos para asegurar la calidad de los fluidos y materiales utilizados durante el reservicio, incluyendo inspecciones y pruebas.
             </Descripcion>
             <Contenido>
-                <Item>Inspección de Fluido: Verificación de pureza y calidad del combustible y lubricantes.</Item>
+                <Item>Inspección de Fluidos: Verificación de pureza y calidad del combustible y lubricantes.</Item>
                 <Item>Pruebas de Calidad: Realización de pruebas para asegurar que los materiales cumplen con las especificaciones.</Item>
                 <Item>Registro de Resultados: Documentación de los resultados de las inspecciones y pruebas.</Item>
             </Contenido>
@@ -1404,9 +1404,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</Reservicio>
-    <!-Sección ATA 15-00-00 OPERACIONES DE VERIFICACIÓN
-    <!-<OperacionesDeVerificacion>
+</Reservicio>
+
+<!-- Sección ATA 15-00-00 OPERACIONES DE VERIFICACIÓN -->
+<OperacionesDeVerificacion>
     <Definicion>
         <Descripcion>
             Establece los procedimientos para realizar inspecciones pre-vuelo y verificar el funcionamiento de sistemas críticos antes de cada operación de vuelo.
@@ -1466,10 +1467,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</OperacionesDeVerificacion>
-    <!-Sección ATA 16-00-00 EQUIPOS DE SOPORTE EN TIERRA
+</OperacionesDeVerificacion>
 
-    <!-<EquiposDeSoporteEnTierra>
+<!-- Sección ATA 16-00-00 EQUIPOS DE SOPORTE EN TIERRA -->
+<EquiposDeSoporteEnTierra>
     <Definicion>
         <Descripcion>
             Describe los equipos de soporte utilizados en tierra para mantener y operar la aeronave, incluyendo descripciones de uso y procedimientos de mantenimiento para estos equipos.
@@ -1531,10 +1532,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</EquiposDeSoporteEnTierra>
-    <!-Sección ATA 17-00-00 EQUIPOS AUXILIARES
+</EquiposDeSoporteEnTierra>
 
-    <!-<EquiposAuxiliares>
+<!-- Sección ATA 17-00-00 EQUIPOS AUXILIARES -->
+<EquiposAuxiliares>
     <Definicion>
         <Descripcion>
             Detalla los equipos auxiliares utilizados para operaciones adicionales en la aeronave, incluyendo equipos de emergencia y comunicaciones adicionales.
@@ -1596,10 +1597,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</EquiposAuxiliares>
-    <!-Sección ATA 18-00-00 ANÁLISIS DE VIBRACIÓN Y RUIDO (SÓLO HELICÓPTEROS)
+</EquiposAuxiliares>
 
-    <!-<AnalisisDeVibracionYRuido>
+<!-- Sección ATA 18-00-00 ANÁLISIS DE VIBRACIÓN Y RUIDO (SÓLO HELICÓPTEROS) -->
+<AnalisisDeVibracionYRuido>
     <Definicion>
         <Descripcion>
             Incluye métodos de medición, análisis e interpretación de vibraciones y ruidos en helicópteros, así como estrategias para mitigar estos fenómenos y mejorar el rendimiento y confort.
@@ -1688,10 +1689,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-**</AnalisisDeVibracionYRuido>
-    <!-Sección ATA 19-00-00 COMBUSTIBLE
+</AnalisisDeVibracionYRuido>
 
-    <!-<Combustible>
+<!-- Sección ATA 19-00-00 COMBUSTIBLE -->
+<Combustible>
     <Definicion>
         <Descripcion>
             Proporciona detalles sobre el almacenamiento, sistemas de transferencia, filtración y calidad del combustible utilizado en la aeronave. Asegura que el manejo del combustible cumpla con los estándares de seguridad y eficiencia.
@@ -1780,9 +1781,10 @@ Representación en XML
             </Ventajas>
         </SubSeccion>
     </DivisionFuncional>
-    <!-</Combustible>
-    <!-Sección ATA 20-00-00 PRÁCTICAS ESTÁNDAR - ARMAZÓN
-    <!-<PracticasEstandarArmazon>
+</Combustible>
+
+<!-- Sección ATA 20-00-00 PRÁCTICAS ESTÁNDAR - ARMAZÓN -->
+<PracticasEstandarArmazon>
     <Definicion>
         <Descripcion>
             Proporciona prácticas y procedimientos estándar para el mantenimiento y reparación del armazón de la aeronave. Incluye técnicas de inspección, reparación y modificación para asegurar la integridad estructural.
@@ -1899,24 +1901,7 @@ Representación en XML
         </SubSeccion>
     </DivisionFuncional>
 </PracticasEstandarArmazon>
-Próximos Pasos para Completar las Secciones ATA 07-00-00 a ATA 20-00-00
-Completar las SubSecciones Restantes:
 
-Para cada sección ATA resumida (ATA 07-00-00 a ATA 20-00-00), desarrolla las SubSecciones siguiendo el formato utilizado en las secciones expandidas. Asegúrate de incluir:
-Codigo: Código ATA correspondiente.
-Nombre: Nombre de la SubSeccion.
-Descripcion: Descripción clara y concisa de la SubSeccion.
-Contenido: Lista de items detallados que abarcan aspectos clave de la SubSeccion.
-Ventajas: Lista de ventajas que resalten la importancia y beneficios de seguir los procedimientos establecidos.
-Revisión de Consistencia:
-
-Asegúrate de que todas las etiquetas y estructuras sigan un patrón consistente en todo el documento XML.
-Verifica que todos los códigos ATA estén correctamente asignados y que no haya duplicados o inconsistencias.
-Validación Contra el Esquema XSD:
-
-Si dispones de un esquema XSD para este XML, realiza una validación exhaustiva para asegurar que el documento cumpla con todas las definiciones y restricciones.
-Utiliza herramientas como xmllint, XMLSpy, o editores de código con soporte para XML y XSD (por ejemplo, Visual Studio Code con extensiones adecuadas).
-Automatización de la Generación de XML:
 ---
 
 ## **1. Conversión a Formatos Máquina-Legibles**
