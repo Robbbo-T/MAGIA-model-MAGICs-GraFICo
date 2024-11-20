@@ -144,10 +144,6 @@ Esta sala es el inicio de una red global de colaboración abierta. Aquí puedes:
 
 --- 
 
-This adaptation aligns with the original **Matrix** structure while integrating the vision, sustainability ethos, and modular focus of the **MAGIA Model**.
-
-
-
 
 ### **Índice Completo para MAGIA: Modular AGI Architecture**
 
